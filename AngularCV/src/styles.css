@@ -1,1 +1,168 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Outfit', sans-serif;
+}
+header {
+    background-color: rgb(59, 61, 71);
+    width: 40%; 
+    text-align: center;
+    height: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    color: rgb(255, 255, 255);
+
+}
+
+header img {
+    width: 300px;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+h1 {
+    
+    font-size: 40px;
+    border-bottom: 1px dotted;
+}
+
+.section2 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 55%;
+    margin: 20px;
+    
+}
+
+article {
+    margin: 20px 0;
+}
+
+ul {
+    list-style:none;
+}
+
+li {
+    margin: 10px;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 3px;
+    background-image: linear-gradient(to right, rgb(39, 39, 39) 50%, rgb(255, 255, 255) 50%);
+    background-position: left;
+    background-size: 200%;
+    background-repeat: no-repeat;
+    transition:background-position,.5s;
+}
+
+a:hover {
+    background-position: right;
+    color: black;
+}
+
+h3 {
+    border-bottom: 1px;
+    color: rgba(5, 137, 245, 0.786);
+}
+
+h4 {
+    color: black;
+}
+
+progress {
+    width: 700px;
+    height: 70px;
+    
+}
+
+ol{
+    list-style:inside;
+    text-align: left;
+    margin: 20px;
+    
+
+}
+
+.conteiner {
+    margin: 20px;
+    background: linear-gradient(to bottom right, rgb(39, 39, 39) 67%, rgb(116, 112, 112) 30%);
+    
+    border-radius: 8px;
+    padding: 0.5px;
+    display: flex;
+    
+    
+}
+
+.conteiner2 {
+    border-radius: 8px;
+    padding: 0.5px;
+    display: inline-block;
+    margin-left: 6.5em;
+   
+}
+
+.article_ol_li_hobby {
+    font-size: 20px;
+}
+
+.form-conteiner {
+    background: linear-gradient(to bottom, rgb(39, 39, 39) 90%, rgb(116, 112, 112) 10%);
+    margin: 20px;
+    border-radius: 8px;
+    display: flex;
+    text-align: left;
+    padding: 30px 0 50px 0;
+}
+
+form label {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+form input {
+    background: rgb(93, 93, 93);
+    margin-right: 50px;
+    border-bottom: solid 2px rgb(92, 92, 92);
+    width: 300px;
+    position: absolute;
+    right: 0;
+    color: aliceblue;
+    padding: 3px;
+}
+
+form textarea {
+    background: rgb(93, 93, 93);
+    margin-top: 4px;
+    margin-right: 50px;
+    border-bottom: solid 2px rgb(92, 92, 92);
+    width: 300px;
+    position: absolute;
+    right: 0;
+    color: aliceblue;
+    padding: 3px;
+}
+
+form button {
+    margin-top: 50px ;
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+    background:none;
+    border-style: none;
+    font-size: 25px;
+    padding: 5px;
+}
+
+form button:hover {
+    background-color: aqua;
+    color: black;
+    border-radius: 3px;
+    background: linear-gradient(to right, white 25%, rgb(19, 118, 154) 20%);
+}
+
